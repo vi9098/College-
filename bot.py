@@ -5,7 +5,7 @@ import os
 import re
 
 # 🔐 Replace with your NEW bot token (regenerate from BotFather)
-BOT_TOKEN = "8278824209:AAGJNf1sPQE8IMI0Q9pFejpNkkxFoO28jh8"
+BOT_TOKEN = "Your Bot Token"
 
 
 # 🎯 Extract playlist videos
