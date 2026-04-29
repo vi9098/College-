@@ -1,14 +1,31 @@
 Practical Questions in C Language (Based on IDS004 Syllabus)
 Unit 1: Basics of C Programming
 Write a C program to print Hello World.
-
+#include<stdio.h>
+  int main(){
+printf("Hello World");
+return 0;
+}
 
 Write a program to add two numbers.
-
+#include<stdio.h>
+  int main(){
+int a=10,b=20,sum;
+sum=a+b;
+printf("%d",sum);
+return 0;
+}
 
 Write a program to find area of rectangle.
-
-
+#include<stdio.h>
+int main(){
+int l,b,area;
+printf("Enter length and Breath");
+scanf("%d %d",&l,&b);
+area=l*b
+printf("Area :%d",area);
+return 0;
+}
 Write a program to swap two numbers using third variable.
 
 
@@ -218,7 +235,8 @@ Write a recursive program for Fibonacci series.
 Linked List
 Write a program to create singly linked list.
 
-
+#include<stdio.h>
+#include<stdlib.h>
 
 
 
